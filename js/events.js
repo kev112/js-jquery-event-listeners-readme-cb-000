@@ -10,4 +10,6 @@ function getIt () {
   $('p').on('click', function () {
       alert('Hey')
     })
-}  
+}
+
+event.target.addClass('tasty')
