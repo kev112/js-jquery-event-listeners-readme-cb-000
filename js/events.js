@@ -12,4 +12,9 @@ function getIt () {
     })
 }
 
-event.target.addClass('tasty')
+function getIt () {
+  $('img').on('load', function () {
+      $('img').addClass('tasty');
+    })
+}
+
